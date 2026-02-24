@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuadHeart Studio</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body { background: #0f1220; color: #ffffff; line-height: 1.6; }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #1b1f3b, #0f1220);
+    }
+
+    header img {
+      width: 200px;
+      max-width: 80%;
+      margin-bottom: 20px;
+    }
+
+    header h1 { font-size: 3rem; letter-spacing: 2px; }
+    header p { margin-top: 15px; font-size: 1.1rem; color: #cfd3ff; }
+
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    h2 { font-size: 2rem; margin-bottom: 20px; color: #9aa4ff; }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1b1f3b;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #0b0d1a;
+      color: #8a8fbf;
+    }
+
+    a { color: #9aa4ff; text-decoration: none; }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <!-- Logo must be in same folder -->
+    <img src="logo.jpeg" alt="QuadHeart Studio Logo">
+    <h1>QUADHEART STUDIO</h1>
+    <p>Independent Game Studio · Creative Worlds · Meaningful Stories</p>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      QuadHeart Studio is an independent game development studio focused on immersive 2D games,
+      emotional storytelling, and engaging combat systems.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>The Hollow Heart</h3>
+        <p>A dark 2D action-adventure game exploring inner conflict and redemption.</p>
+      </div>
+      <div class="card">
+        <h3>Upcoming Projects</h3>
+        <p>New experimental prototypes currently in development.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+<section>
+  <h2>Contact</h2>
+
+  <form action="https://formsubmit.co/quadheartstudio@gmail.com" method="POST">
+    
+    <input type="text" name="name" placeholder="Your Name" required 
+    style="width:100%; padding:10px; margin-bottom:10px; border-radius:5px; border:none;">
+
+    <input type="email" name="email" placeholder="Your Email" required 
+    style="width:100%; padding:10px; margin-bottom:10px; border-radius:5px; border:none;">
+
+    <textarea name="message" placeholder="Write your complaint or review..." required
+    style="width:100%; padding:10px; margin-bottom:10px; border-radius:5px; border:none; height:120px;"></textarea>
+
+    <button type="submit" 
+    style="padding:10px 20px; background:#9aa4ff; border:none; border-radius:5px; cursor:pointer;">
+    Submit
+    </button>
+
+  </form>
+
+</section>
+  <p>Email: <a href="mailto:quadheartstudio@gmail.com">
+  quadheartstudio@gmail.com</a></p>
+</section>
+
+  <footer>
+    © 2026 QuadHeart Studio. All rights reserved.
+  </footer>
+
+</body>
+</html>
